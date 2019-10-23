@@ -1,0 +1,183 @@
+
+body{
+    background-color:rgb(10,15,55);
+}
+
+.circle{
+    height:30vh;
+    width:50vw;
+    border-radius:50%;
+    background-color:aquamarine;
+    margin:auto;
+}
+
+h1{
+    color:black;
+    font-size:3em;
+    font-family: "Carta Marina",serif;
+    font-weight:700;
+    font-style: bold;
+    text-align: center;
+}
+
+h2{
+    color:black;
+    font-size:2em;
+    font-family:"Carta Marina",serif;
+    font-weight:700;
+    font-style:bold;
+    text-align:center;
+}
+
+.poem{
+    background-color:black;
+    border:solid gray;
+    height:800px;
+    width:50vw;
+    margin:auto;
+    margin-top:10px;
+}
+
+P{
+    color:aquamarine;
+    font-size:2em;
+    font-family: "Carta Marina",serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+}
+
+.meta_boxes{
+    width:30vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:10em;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.box{
+    background-color:black;
+    border:solid gray;
+    height:200px;
+}
+
+/*--------SMART PHONES--------*/
+
+
+@media only screen and (max-width:800px) {
+    
+    body{
+        background-color: rgb(43,7,90);    
+    }
+    .circle{
+        height:140vh;
+        width:90vw;
+        border-radius:70%;
+        background-color: aqua;
+        margin:auto;
+        margin-top:-10px;
+    }
+
+    h1{
+        color:rgb(75,14,122);
+        font-size: 1.5em;
+        font-family:"Carta Marina",serif;
+        font-weight:700;
+        font-style:bold;
+        text-align:center;
+        margin-top:10px;
+    }
+
+    h2{
+        color:rgb(75,14,122);
+        font-size:1em;
+        font-family:"Carta Marina",serif;
+        font-weight:700;
+        font-style: italic bold;
+        text-align: center;
+    }
+
+    .poem{
+        height:30vh;
+        width:70vw;
+        margin:auto;
+        margin-top: -800px;
+        border:none;
+        background:none;
+    }
+    p{
+        color:rgb(75,14,122);
+    }
+
+    .meta_boxes{
+        width:50vw;
+        height:200vh;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:0em;
+        margin:auto;
+        margin-top:650px;
+    }
+
+}
+
+/*--------TABLETS--------*/
+
+@media only screen and (min-width:800px) and (max-width:1280px) {
+    body{
+        background-color:rgb(81,4,7);
+    }
+
+    .circle{
+        height:100vh;
+        width:90vw;
+        border-radius:50%;
+        background-color:white;
+        margin:auto;
+    }
+
+    h1{
+        color:black;
+        font-size: 3em;
+        font-family:"Carta Marina",serif;
+        font-weight:700;
+        font-style:bold;
+        text-align:center;
+        margin-top:100px;
+    }
+
+    h2{
+        color:black;
+        font-size: 2em;
+        font-family:"Carta Marina",serif;
+        font-weight:700;
+        font-style:bold;
+        text-align:center;
+        margin-top:10px;
+    }
+
+    .poem{
+        height:170vh;
+        width:100vw;
+        border-radius: 50%;
+        margin:auto;
+        margin-top:-300px;
+    }
+    
+    p{
+        color:white;
+    }
+
+    .meta_boxes{
+        width:50vw;
+        height:30px;
+        margin:auto;
+        margin-top:-250px;
+    }
+
+    .box{
+        border:none;
+        background:none;
+    }
+}
